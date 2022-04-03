@@ -41,7 +41,7 @@ const Cards = () => {
     return (
         <>
             <form onSubmit={handleSubmit}>
-                <label className="w-100">
+                <label className="w-100 text-white fw-bold">
                     {' '}
                     Buscar:{' '}
                     <input className="w-100" type="text" name="inputText" />
